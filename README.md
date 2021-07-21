@@ -3,8 +3,7 @@
 Robin AI's product suite will include interfaces for viewing, labelling and editing contracts.
 
 We require the ability to interact with text on a per-sentence basis. Contract objects are stored
-in a backend service, which exposes an API. `src/api.ts` includes sample data to be used in this task - 
-you may import and use the `data` object directly.
+in a backend service, which exposes an API. `src/api.ts` includes sample data to be used in this task.
 
 To complete this task, implement the following features:
 
