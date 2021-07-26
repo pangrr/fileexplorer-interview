@@ -1,7 +1,6 @@
 import React from "react";
+import { dataFromBackend as contract } from "./api";
 
-function App() {
-  return <div>WIP</div>;
+export default function App() {
+  return <h1>Render contract "{contract.name}" here</h1>;
 }
-
-export default App;
