@@ -8,8 +8,8 @@ may use the `contract` object directly.
 
 ## The Contract
 
-The contract object contains some metadata about the contract - it's name, id and an array of text blocks. Each text block represents a paragraph of text within the contract.
-Within each text block is an array of sentence indices. Each sentence indice contains the information of where sentences can be found in the text. The start and end values are indexes within the text string of the start and end of the sentence.
+The contract object contains some metadata about a contract - its name, id and an array of text blocks. Each text block represents a paragraph of text within the contract.
+Within each text block is an array of sentence indices. Each sentence indice contains the information of where sentences can be found in the text. The start and end values are indexes within the text string of the start and end of a sentence.
 
 ## Requirements
 
@@ -17,10 +17,9 @@ To complete this task, implement the following features:
 
 1. Render the paragraphs of the contract in the browser so they are clear and readable.
 2. While hovering on a paragraph, the surrounding paragraph should be highlighted in blue.
-3. The user can select a single paragraph on click, or multiple paragraph on ctrl-click.
+3. The user can select a single paragraph on click, or multiple paragraphs on ctrl-click.
    The selected paragraph(s) should be highlighted in red.
-4. The user can click a button to clear their selection. The button should be disabled if
-   no paragraphs are selected.
+4. The user can click a button to clear their selection. The button should be disabled if no paragraphs are selected.
 
 ---
 
