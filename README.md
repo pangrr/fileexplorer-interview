@@ -9,7 +9,7 @@ may use the `contract` object directly.
 ## The Contract
 
 The contract object contains some metadata about a contract - its name, id and an array of text blocks. Each text block represents a paragraph of text within the contract.
-Within each text block is an array of sentence indices. Each sentence indice contains the information of where sentences can be found in the text. The start and end values are indexes within the text string of the start and end of a sentence.
+Each text block contains an array of sentence objects. Each object contains details of where sentences are located within it. The start and end values are indexes within the text string of the start and end of a sentence.
 
 ## Requirements
 
