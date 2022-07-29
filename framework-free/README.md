@@ -4,7 +4,7 @@ Robin AI's product suite will include interfaces for viewing, labelling and edit
 
 We require the ability to interact with text on a per-sentence basis. Contract objects are stored
 in a backend service, which exposes an API. `src/api.ts` includes sample data to be used in this task.
-You can retrieve the contract by using the asynchronous function `getContract`.
+You can retrieve the contract by using the asynchronous function `getContract` or by accessing the `dataFromBackend` object directly.
 
 ## The Contract
 
