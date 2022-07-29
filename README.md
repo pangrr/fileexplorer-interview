@@ -16,7 +16,7 @@ Each text block contains an array of sentence objects. Each object contains deta
 To complete this task, implement the following features:
 
 1. Render the paragraphs of the contract in the browser so they are clear and readable.
-2. While hovering on a paragraph, the surrounding paragraph should be highlighted in blue.
+2. While hovering on a paragraph, the paragraph should be highlighted in blue.
 3. The user can select a single paragraph on click, or multiple paragraphs on ctrl-click.
    The selected paragraph(s) should be highlighted in red.
 4. The user can click a button to clear their selection. The button should be disabled if no paragraphs are selected.

@@ -1,9 +1,5 @@
 // For expected types see ./api.ts
 
-export const getSentencesForTextBlock = (textBlock) => {
-  return [];
-};
-
 export const getContract = () => {
   return Promise.resolve(dataFromBackend);
 };

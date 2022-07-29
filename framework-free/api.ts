@@ -27,10 +27,6 @@ interface TextBlock {
   sentenceIndices: Array<{ start: number; end: number }>;
 }
 
-export const getSentencesForTextBlock = (textBlock: TextBlock): string[] => {
-  return [];
-};
-
 export const getContract = () => {
   return Promise.resolve(dataFromBackend);
 };
