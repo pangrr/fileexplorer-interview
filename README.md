@@ -26,7 +26,7 @@ To complete this task, implement the following features:
 **_If you have completed the above_** - consider changing your implementation to support sentences using the sentence indice information in the contract object.
 The requirements would now be:
 
-5. While hovering on a sentence, the surrounding sentence should be highlighted in blue.
+5. While hovering on a sentence, the sentence should be highlighted in blue.
 6. The user can select a single sentence on click, or multiple sentences on ctrl-click.
    The selected sentence(s) should be highlighted in red.
 7. The user can click a button to clear their selection. The button should be disabled if
