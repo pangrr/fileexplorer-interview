@@ -17,7 +17,7 @@ To complete this task, implement the following features:
 
 1. Render the paragraphs of the contract in the browser so they are clear and readable.
 2. While hovering on a paragraph, the paragraph should be highlighted in blue.
-3. The user can select a single paragraph on click, or multiple paragraphs on ctrl-click.
+3. The user can select a single paragraph on click, or multiple paragraphs on <kbd>ctrl</kbd>/<kbd>cmd</kbd>-click.
    The selected paragraph(s) should be highlighted in red.
 4. The user can click a button to clear their selection. The button should be disabled if no paragraphs are selected.
 
@@ -27,7 +27,7 @@ To complete this task, implement the following features:
 The requirements would now be:
 
 5. While hovering on a sentence, the sentence should be highlighted in blue.
-6. The user can select a single sentence on click, or multiple sentences on ctrl-click.
+6. The user can select a single sentence on click, or multiple sentences on <kbd>ctrl</kbd>/<kbd>cmd</kbd>-click.
    The selected sentence(s) should be highlighted in red.
 7. The user can click a button to clear their selection. The button should be disabled if
    no sentences are selected.
