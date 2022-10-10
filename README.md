@@ -38,6 +38,10 @@ the functionality.
 
 **Note:** you may use Typescript or Javascript.
 
+## Using Javascript
+
+You may use Javascript for this task if you prefer. To do this simply rename `App.tsx` to `App.jsx` and you should be able to continue working in JavaScript from there.
+
 ## Available Scripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

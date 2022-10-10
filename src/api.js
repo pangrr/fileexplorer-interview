@@ -1,39 +1,10 @@
 /**
- * Type definition for a contract.
- *
- * @id Unique ID for the contract.
- * @name Name of contract.
- * @textBlocks Array of text block objects.
- */
-interface Contract {
-  id: string;
-  name: string;
-  textBlocks: Array<TextBlock>;
-}
-
-/**
- * Type definition for a single text block.
- *
- * @id Unique ID for the text block.
- * @text The text contents of the block.
- * @blockNumber The block's position in relation to others.
- * @sentenceIndices An array of indices, each specifying the start and end
- * of a sentence within the block. Only the start index is inclusive.
- */
-interface TextBlock {
-  id: string;
-  text: string;
-  blockNumber: number;
-  sentenceIndices: Array<{ start: number; end: number }>;
-}
-
-/**
  * An example contract payload, to be used in this exercise.
  *
  * In reality, this would be the result following a query like:
  * GET /contract/<id>/
  */
-export const dataFromBackend: Contract = {
+export const dataFromBackend = {
   id: "VGV4dEJsb2NrTm9kZToxMDI3Mw==",
   name: "Sample NDA",
   textBlocks: [
