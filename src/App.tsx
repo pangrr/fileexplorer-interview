@@ -1,4 +1,3 @@
-import React from "react";
 import { dataFromBackend as contract } from "./api";
 
 export default function App() {
