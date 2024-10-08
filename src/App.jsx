@@ -1,5 +1,6 @@
 import { dataFromBackend as contract } from "./api";
+import Contract from "./Contract";
 
 export default function App() {
-  return <h1>Render contract "{contract.name}" here</h1>;
+  return <Contract contract={contract} />;
 }

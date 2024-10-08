@@ -1,0 +1,12 @@
+.sentence {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.sentence:hover {
+  color: blue;
+}
+
+.sentence.selected {
+  color: red;
+}

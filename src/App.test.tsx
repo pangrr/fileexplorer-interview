@@ -2,9 +2,9 @@ import { render, screen } from "@testing-library/react";
 import App from "./App";
 
 describe("App", () => {
-  it("renders headline", () => {
+  it("renders contract title", () => {
     render(<App />);
-    const headline = screen.getByText(/Render contract/i);
-    expect(headline).toBeInTheDocument();
+    const title = screen.getByText(/Sample NDA/i);
+    expect(title).toBeInTheDocument();
   });
 });
