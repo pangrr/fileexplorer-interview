@@ -1,0 +1,10 @@
+.container {
+}
+
+.name.folder {
+  cursor: pointer;
+  color: blue;
+}
+
+.name.file {
+}
